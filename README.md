@@ -26,7 +26,9 @@ Schedula extracts the meeting bits and gets it on your calendar.
 
 ## How to use
 
-
+To test this feature, all you need to do is:
+- Address an email to event@cal.learnaws.io (the TO section)
+- Coyly mention the date, time, and 
 
 ## How does it work
 
@@ -45,7 +47,7 @@ This JSON contains valuable information about our meeting, like:
 
 
 ```mermaid
-flow TD
+graph TD
 A(Your email) --> B(Postmark inbound stream)
 B --> C(Lambda function)
 C --> D(DynamoDB)
