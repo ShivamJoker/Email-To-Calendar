@@ -28,7 +28,7 @@ Schedula extracts the meeting bits and gets it on your calendar.
 
 To test this feature, all you need to do is:
 - Address an email to event@cal.learnaws.io (the TO section)
-- Coyly mention the date, time, and 
+- Coyly mention the date and time
 
 ## How does it work
 
@@ -41,6 +41,7 @@ This JSON contains valuable information about our meeting, like:
 - timezone (CEST / IST / JST etc.)
 - recipient
 
+Tech stack:
 - Lambda
 - DynamoDB (creds)
 - Google Calendar API (scheduling the meeting)
